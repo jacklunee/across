@@ -3,6 +3,7 @@
 使用root用户登录，运行以下命令：
 
 wget --no-check-certificate https://raw.githubusercontent.com/jacklunee/across/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+
 安装完成后，脚本会提示需要重启 VPS，输入 y 并回车后重启。
 重启完成后，进入 VPS，验证一下是否成功安装最新内核并开启 TCP BBR，输入以下命令：
 

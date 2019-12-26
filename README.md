@@ -25,6 +25,12 @@ net.core.default_qdisc = fq
 lsmod | grep bbr
 返回值有 tcp_bbr 模块即说明 bbr 已启动。
 
+卸载方法
+vi /etc/sysctl.conf
+把net.ipv4.tcp_congestion_control
+改成#net.ipv4.tcp_congestion_control
+然后reboot
+
 
 # Across the Great Wall we can reach every corner in the world
 
